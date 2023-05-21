@@ -1,0 +1,29 @@
+GET http://localhost:3000/articles
+
+###
+
+GET http://localhost:3000/articles/644fa36ab3441012e2898443
+
+###
+
+POST http://localhost:3000/articles
+Content-Type: application/json
+
+{
+    "title": "Hi",
+    "content": "World"
+}
+
+###
+
+PATCH http://localhost:3000/articles/6465281a735e7435781ff15a
+Content-Type: application/json
+
+{
+    "title": "Name",
+    "content": "Unknown" 
+}
+
+###
+
+DELETE http://localhost:3000/articles/646a23bff85406a64fe612d1
